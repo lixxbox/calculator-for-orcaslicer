@@ -1,12 +1,11 @@
 <!doctype html>
-<html lang="en" data-theme="dark">
+<html lang="en" data-theme="light">
 
 <head>
   <meta charset=" utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="color-scheme" content="light dark" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.cyan.min.css" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/theme-toggles@4.10.1/css/expand.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/theme-toggles@4.10.1/css/expand.min.css">
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
   <title>Calculator</title>
@@ -18,7 +17,7 @@
 
     body>header {
       position: fixed;
-      background: rgba(from var(--pico-background-color) r g b / 0.8);
+      background: linear-gradient(180deg, var(--pico-background-color) 0%, color-mix(in srgb, var(--pico-background-color), transparent 66%) 100%);
       border-bottom: 1px solid hsla(0, 0%, 50%, 0.2);
       backdrop-filter: blur(10px);
       -webkit-backdrop-filter: blur(10px);
