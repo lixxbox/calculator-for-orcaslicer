@@ -78,7 +78,7 @@ function calculateMaxFlow() {
     var resultElement = document.getElementById("maxflowResult");
     var result = null;
 
-    result = maxflowStart + (maxflowHeight - maxflowHeight * maxflowStep);
+    result = maxflowStart + (maxflowHeight * maxflowStep);
     handleResult(resultElement, result)
 }
 
